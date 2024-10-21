@@ -5,9 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "YandexMapsMobileBinary",
-    platforms: [
-        .iOS(.v13)
-    ],
     products: [
         .library(
             name: "YandexMapsMobileBinary",
